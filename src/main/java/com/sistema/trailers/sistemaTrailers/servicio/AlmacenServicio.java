@@ -13,7 +13,7 @@ public interface AlmacenServicio {
 
     public Path cargarArchivo(String nombreArchivo);
 
-    public Resource cargarComoRecurso(String nombreArchivo);
+    public org.springframework.core.io.Resource cargarComoRecurso(String nombreArchivo);
 
     public void eliminarArchivo(String nombreArhivo);
 }
